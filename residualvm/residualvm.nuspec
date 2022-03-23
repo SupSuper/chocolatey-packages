@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>residualvm</id>
+    <version>0.2.1.20220323</version>
+    <title>[Deprecated] ResidualVM</title>
+    <authors>ResidualVM Team</authors>
+    <owners>SupSuper</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <projectUrl>https://www.scummvm.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ResidualVM has merged with ScummVM. Please use the [scummvm](https://community.chocolatey.org/packages/scummvm) package instead.</description>
+    <summary>Engine for 3D adventure games.</summary>
+    <releaseNotes>https://www.scummvm.org/news/20201009/</releaseNotes>
+    <tags>game games 3d emulator lucasarts adventure grime myst</tags>
+    <packageSourceUrl>https://github.com/SupSuper/chocolatey-packages/tree/master/residualvm</packageSourceUrl>
+    <dependencies>
+      <dependency id="scummvm" version="2.5.0" />
+    </dependencies>
+  </metadata>
+  <files/>
+</package>
