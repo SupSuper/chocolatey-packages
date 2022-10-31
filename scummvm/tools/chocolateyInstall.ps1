@@ -5,11 +5,11 @@ $packageArgs = @{
   fileType      = 'exe'
   softwareName  = 'ScummVM*'
 
-  url           = 'https://downloads.scummvm.org/frs/scummvm/2.6.0/scummvm-2.6.0-win32.exe'
+  url           = 'https://downloads.scummvm.org/frs/scummvm/2.6.1/scummvm-2.6.1-win32.exe'
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
   validExitCodes= @(0)
 
-  checksum      = 'a01b3f92c8e03041596c3f8e3383a0d4a3ddec5af6407bdc9199f4dd1c497cb8'
+  checksum      = '8be79b25c064ede2e7469d9d2f0693e5f6f05931b0a1ce1ae7a10a9abce06b2f'
   checksumType  = 'sha256'
 }
 
